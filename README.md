@@ -5,11 +5,10 @@
 
 ## Camera Viewer 
 ### Quick Start
-- Clone the repo branch
+- Clone the repo
 - Navigate to /cameraviewer/ path
 - Run the following in the cli:
 ```sh
-git checkout cameraviewer-1
 npm i
 npm start
 ```
