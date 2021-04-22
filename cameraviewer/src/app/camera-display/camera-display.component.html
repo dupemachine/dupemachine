@@ -1,0 +1,8 @@
+<div> 
+    <div class="image-and-name" *ngFor="let image of imageArray">
+        <img class="resized-img" [src]="image.blobUrl"/>
+        <div>
+            {{ image.name }}
+        </div>
+    </div>
+</div>

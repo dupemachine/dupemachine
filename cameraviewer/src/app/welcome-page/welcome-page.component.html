@@ -1,0 +1,16 @@
+<div class="content" role="main">
+
+    <h2 *ngIf="!sidRetrieved">Thanks for checking out my camera viewer.</h2>
+  
+    <div class="card-container" *ngIf="!sidRetrieved">
+      <p>To start, we need to first create a new user session: </p><br>
+      <button class="card" (click)="initializeSession()">
+        <div>Create user session</div>
+        <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+    </div>
+    <div class="card-container" *ngIf="sidRetrieved">
+      <p>We are now ready to check out the cameras:</p>
+      <button class="card camera-btn" (click)="routeToCameras()">Go</button>
+    </div>
+</div>
