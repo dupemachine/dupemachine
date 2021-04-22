@@ -1,7 +1,7 @@
 # IPConfigure Assessment Submission
 
 ## Pi Estimate
--Copy and paste code inside a JS playground (jsfiddle, etc).  Calculated estimate, as well as true value of PI (calculated with provided formula), will be logged to the console.
+- Copy and paste code inside a JS playground (jsfiddle, etc).  Calculated estimate, as well as true value of PI (calculated with provided formula), will be logged to the console.
 
 ## Camera Viewer 
 ### Quick Start
